@@ -1,0 +1,2 @@
+# WordPress主题kratos
+
