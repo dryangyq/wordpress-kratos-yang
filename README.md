@@ -7,6 +7,8 @@ https://github.com/vtrois/kratos
 该仓库已同步到多个git托管平台，包括<a href="https://github.com/dryangyq/wordpress-kratos-yang.git" target="_blank">Github</a>、<a href="https://gitee.com/dryangyq/wordpress-kratos-yang.git" target="_blank">Gitee</a>、
 <a href="https://gitlab.com/dryangyq/wordpress-kratos-yang.git" target="_blank">Gitlab</a>和<a href="https://code.aliyun.com/dryangyq/wordpress-kratos-yang.git" target="_blank">阿里云Code</a>。这些代码库都和<a href="https://git.yangyq.net/laoyang/wordpress-kratos-yang.git" target="_blank">源库</a>保持一致和同步，在任何平台上关注都可以。
 
+**Github因为网络原因，同步会出现失败情况，无法保证最新。**
+
 主要修改的地方主要包括：
 1. 为移动端增加了侧边栏显示。之前的版本，在移动端无法看到最近评论，这个版本加入了这个功能。当然只是在首页，在文章页面，为了减少数据传输，仍然没有侧边栏。
 2. 文章聚合widget，将最新文章优先显示。原来的版本，是显示最热门文章，但是不知道什么原因，热点文章总是没几个，而且我认为，大部分人上来，应该时主要为了看最新文章的吧。
