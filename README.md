@@ -2,7 +2,10 @@
 原主题的地址是：  
 https://github.com/vtrois/kratos  
 因为我需要一些定制的功能，就fork出来一个新的分支，自己用。如果你对原有的主题开发也有不满意的地方，欢迎使用我的这个版本。当然，版权仍然是属于原主题。
-主题预览：<a href="https://yangyq.net" target="_blank">老杨说话的地方</a>
+主题预览：<a href="https://yangyq.net" target="_blank">老杨说话的地方</a>。
+
+该仓库已同步到多个git托管平台，包括<a href="https://github.com/dryangyq/wordpress-kratos-yang.git" target="_blank">Github</a>、<a href="https://gitee.com/dryangyq/wordpress-kratos-yang.git" target="_blank">Gitee</a>、
+<a href="https://gitlab.com/dryangyq/wordpress-kratos-yang.git" target="_blank">Gitlab</a>和<a href="https://code.aliyun.com/dryangyq/wordpress-kratos-yang.git" target="_blank">阿里云Code</a>。这些代码库都和<a href="https://git.yangyq.net/laoyang/wordpress-kratos-yang.git" target="_blank">源库</a>保持一致和同步，在任何平台上关注都可以。
 
 主要修改的地方主要包括：
 1. 为移动端增加了侧边栏显示。之前的版本，在移动端无法看到最近评论，这个版本加入了这个功能。当然只是在首页，在文章页面，为了减少数据传输，仍然没有侧边栏。
