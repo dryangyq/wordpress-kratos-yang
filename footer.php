@@ -44,7 +44,7 @@
                 <?php
                     $sitename = get_bloginfo('name');
                     echo '<p>' . kratos_option('s_copyright', 'COPYRIGHT © 2020 ' . $sitename . '. ALL RIGHTS RESERVED.') . '</p>';
-                    echo '<p>主题 <a href="https://gitee.com/semoryang/kratos_yang" target="_blank" rel="nofollow">KRATOS YANG</a> 由 <a href="https://www.vtrois.com/" target="_blank" rel="nofollow">VTROIS</a>创建，经<a href="https://yangyq.net" target="_blank" rel="nofollow">老杨</a>修改</p>';
+                    echo '<p>THEME <a href="https://gitee.com/semoryang/kratos_yang" target="_blank" rel="nofollow">KRATOS YANG</a> Modified BY <a href="https://yangyq.net" target="_blank" rel="nofollow">老杨</a></p>';
                     if (kratos_option('s_icp')) {
                         echo '<p><a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">' . kratos_option('s_icp') . '</a></p>';
                     }
