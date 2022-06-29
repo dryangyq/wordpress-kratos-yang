@@ -17,3 +17,28 @@ https://github.com/vtrois/kratos
 5. 文章配置中，删除了文章版权信息，删除了网易云音乐。
 6. 删除了社交相关配置选项。
 7. 增加了在页脚显示国旗的选项。
+
+# 修复Bug
+1. 如果使用了插件，会改变comment的div名称，class="comments" 变成了comments-area，因此，评论的样式不好用了。
+
+此时，在主题的额外CSS中添加：
+
+```
+.k-main .details .comments-area {
+  margin-top: 16px;
+  padding: 1.6px 16px 16px;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.k-main .details .post-2 .comments-area {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+```
+
+就可以了。该问题属于和插件的冲突问题，因此，在额外CSS中添加，不修改主题本身。
