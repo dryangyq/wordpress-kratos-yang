@@ -101,6 +101,7 @@ function mourning()
 }
 
 // 抓取图片链接（搜索引擎或者社交工具分享时抓取图片的链接）
+/*
 function share_thumbnail_url()
 {
     global $post;
@@ -119,7 +120,7 @@ function share_thumbnail_url()
     }
     return $img;
 }
-
+*/
 // 支持上传 svg
 add_filter('upload_mimes', 'upload_svg');
 function upload_svg($existing_mimes = array())

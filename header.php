@@ -17,7 +17,6 @@
     <meta name="keywords" content="<?php echo keywords(); ?>">
     <meta name="description" itemprop="description" content="<?php echo description(); ?>">
     <meta name="theme-color" content="<?php echo kratos_option('g_chrome', '#282a2c'); ?>">
-    <meta itemprop="image" content="<?php echo share_thumbnail_url(); ?>"/>
     <link rel="shortcut icon" href="<?php echo kratos_option('g_icon'); ?>">
     <?php wp_head(); wp_print_scripts('jquery'); mourning(); ?>
 </head>
