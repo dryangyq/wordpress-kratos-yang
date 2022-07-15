@@ -1,0 +1,9 @@
+.article .content p{   text-indent:2em   } 
+.k-main .details .article .content h2 {
+    margin: 16px -16px;
+    padding: 0 10px;
+    border-left: 5px solid #00a2ff;
+    background-color: rgba(243, 243, 243, 0.7);
+    font-size: 20px;
+    line-height: 41px;
+}
