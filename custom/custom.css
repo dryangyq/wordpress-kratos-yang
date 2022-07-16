@@ -28,6 +28,9 @@
   ol{
     margin-left:2em;
   }
-  li{
+  ol > li{
+    line-height: 1.8;
+  }
+  ul > li{
     line-height: 1.8;
   }
