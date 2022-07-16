@@ -22,3 +22,12 @@
     -moz-box-shadow: none;
     box-shadow: none;
   }
+  ul{
+    margin-left:2em;
+  }
+  ol{
+    margin-left:2em;
+  }
+  li{
+    line-height: 1.8;
+  }
