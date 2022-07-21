@@ -132,18 +132,7 @@ $select_col = $col_array[kratos_option('g_article_widgets', 'two_side')];
                         </div>
                     </div>
                 <?php endif; ?>
-                <?php require get_template_directory() . '/pages/page-toolbar.php'; ?>
-                <nav class="navigation post-navigation clearfix" role="navigation">
-                    <?php
-                    $prev_post = get_previous_post(TRUE);
-                    if(!empty($prev_post)){
-                        echo '<div class="nav-previous clearfix"><a title="'.$prev_post->post_title .'" href="'.get_permalink($prev_post->ID).'">'. __('< 上一篇','kratos') .'</a></div>';
-                    }
-                    $next_post = get_next_post(TRUE);
-                    if(!empty($next_post)){
-                        echo '<div class="nav-next"><a title="'. $next_post->post_title .'" href="'. get_permalink($next_post->ID) .'">'. __('下一篇 >','kratos') .'</a></div>';
-                    }?>
-                </nav>
+                <?php require get_template_directory() . '/pages/page-toolbar.php'; ?>                
                 <?php comments_template(); ?>
             </div>
             <?php if (kratos_option('g_article_widgets', 'two_side') == 'two_side'){ ?>
