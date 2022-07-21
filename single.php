@@ -132,7 +132,7 @@ $select_col = $col_array[kratos_option('g_article_widgets', 'two_side')];
                         </div>
                     </div>
                 <?php endif; ?>
-                <?php require get_template_directory() . '/pages/page-toolbar.php'; ?> 
+                <?php require get_template_directory() . '/pages/page-toolbar.php'; ?>
                 <?php comments_template(); ?>
             </div>
             <?php if (kratos_option('g_article_widgets', 'two_side') == 'two_side'){ ?>
