@@ -1389,7 +1389,7 @@ button:focus {
 .k-main .details .post-navigation .nav-previous {
   float: left;
   padding: 7px 18px;
-  max-width: 50%;
+  max-width: 40%;
   background-color: #fff;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   text-align: left;
@@ -1398,7 +1398,7 @@ button:focus {
 .k-main .details .post-navigation .nav-next {
   float: right;
   padding: 7px 18px;
-  max-width: 50%;
+  max-width: 40%;
   background-color: #fff;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   text-align: right;
